@@ -81,19 +81,19 @@ public extension NSDate {
 	}
 	
 	/// Get the year component of the date
-	var year : Int			{ return components.year }
+	private var year : Int			{ return components.year }
 	/// Get the month component of the date
-	var month : Int			{ return components.month }
+	private var month : Int			{ return components.month }
 	// Get the week of the month component of the date
 	var weekOfMonth: Int	{ return components.weekOfMonth }
 	// Get the week of the month component of the date
 	var weekOfYear: Int		{ return components.weekOfYear }
 	/// Get the weekday component of the date
-	var weekday: Int		{ return components.weekday }
+	private var weekday: Int		{ return components.weekday }
 	/// Get the weekday ordinal component of the date
 	var weekdayOrdinal: Int	{ return components.weekdayOrdinal }
 	/// Get the day component of the date
-	var day: Int			{ return components.day }
+	private var day: Int			{ return components.day }
 	/// Get the hour component of the date
 	var hour: Int			{ return components.hour }
 	/// Get the minute component of the date
